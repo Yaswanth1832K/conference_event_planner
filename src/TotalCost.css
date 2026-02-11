@@ -1,24 +1,34 @@
 .pricing-app {
- margin-top: 20px;
- /* margin-left: 40vw; */
- width: 100vw;
- height: 100vh;
- display: flex;
- align-items: center;
- justify-content: center;
+  margin-top: 20px;
+  /* margin-left: 40vw; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .display_box {
+  background: white;
+  padding: 4rem;
+  border-radius: 30px;
+  max-width: 900px;
+  margin: 60px auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 50, 0.08);
   text-align: center;
-  box-sizing: border-box;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  background-color: white;
-  color: #333;
-  margin: 0;
-  padding: 55px;
-  width: 80vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.display_box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--secondary), var(--primary));
 }
 
 
