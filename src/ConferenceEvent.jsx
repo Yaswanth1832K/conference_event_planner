@@ -129,7 +129,7 @@ const ConferenceEvent = () => {
             <a href="#meals" onClick={() => navigateToProducts('#meals')}>Meals</a>
           </div>
           <button className="details_button" onClick={() => setShowItems(!showItems)}>
-            Show Details
+            Event Summary
           </button>
         </div>
       </navbar>
