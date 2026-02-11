@@ -1,135 +1,55 @@
-# 📅 Conference Event Planner
+# Conference Expense Planner
 
-A web application for planning and managing conferences, including scheduling sessions, organizing speakers, and managing attendees.
+A premium, React-based web application designed to help users effortlessly plan and calculate costs for large-scale conference events.
 
-> This project is based on the IBM Developer Skills Network open-source project.
-> I studied the codebase, set up the project locally, and explored its architecture to understand full-stack web application structure and event-management workflows.
+## 🌟 Features
 
----
+-   **Venue Selection**: Choose from a variety of rooms including Auditoriums and Conference Halls with capacity management.
+-   **Add-ons Management**: Customize your event with AV equipment, projectors, and more.
+-   **Meal Planning**: Dynamic cost calculation based on the number of attendees and meal types.
+-   **Real-time Cost Updates**: Instant feedback on total costs as you modify your plan.
+-   **Premium UI**: A modern "Navy & Gold" aesthetic with smooth glassmorphism effects and animations.
+-   **Enquiry System**: Built-in checkout modal to finalize plans and submit enquiries.
 
-## 📌 Overview
+## 🚀 Technologies Used
 
-Conference Event Planner is designed to help organizers manage conference events efficiently.
-The system allows users to browse sessions, view schedules, and manage event information through a simple web interface.
+-   **Frontend**: React, Vite
+-   **State Management**: Redux Toolkit
+-   **Styling**: CSS3 (Variables, Grid, Flexbox, Animations)
+-   **Fonts**: Google Fonts (Outfit)
 
-The goal of this project was to understand:
+## 🛠️ Setup & Installation
 
-* how a real-world web application is structured
-* frontend project organization
-* package management and build tools
-* working with an existing codebase
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Yaswanth1832K/conference_event_planner.git
+    cd conference_event_planner
+    ```
 
----
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-## ✨ Features
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-* View conference sessions
-* Event schedule display
-* Speaker and session information
-* Responsive web interface
-* Modular project structure
+4.  **Build for production**:
+    ```bash
+    npm run build
+    ```
 
----
+## 📸 Usage
 
-## 🧠 What I Learned
-
-While working with this project, I explored:
-
-* Understanding an existing codebase
-* Running a frontend project using npm
-* Project structure in modern web apps
-* Dependency management
-* Static asset organization
-* Debugging and troubleshooting setup errors
-
----
-
-## 🛠 Tech Stack
-
-* HTML
-* CSS
-* JavaScript
-* Node.js (npm)
-* Vite build tool
+1.  Click **"Plan Your Event"** on the landing page.
+2.  Select your desired venue rooms.
+3.  Add necessary AV equipment in the Add-ons section.
+4.  Specify the number of people and choose meal options.
+5.  Click **"Show Details"** to view the itemized breakdown.
+6.  Proceed to **"Checkout"** to submit your plan!
 
 ---
 
-## 📂 Project Structure
-
-```
-conference_event_planner/
-│
-├── public/
-├── src/
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
----
-
-## 🚀 Installation & Setup
-
-### 1. Clone the repository
-
-```
-git clone https://github.com/Yaswanth1832K/conference_event_planner.git
-cd conference_event_planner
-```
-
-### 2. Install dependencies
-
-```
-npm install
-```
-
-### 3. Run the application
-
-```
-npm run dev
-```
-
-### 4. Open in browser
-
-```
-http://localhost:5173
-```
-
----
-
-## ▶️ Usage
-
-1. Start the development server
-2. Open the application in browser
-3. Browse sessions and event information
-4. Explore UI navigation
-
----
-
-## 🎯 Purpose of This Repository
-
-This repository is maintained as a **learning and exploration project** to understand how real-world web applications are organized and executed.
-
----
-
-## 🔮 Future Improvements
-
-* Add backend integration
-* Add authentication
-* Event registration system
-* Database support
-
----
-
-## 👨‍💻 Author
-
-Maintained by **Yaswanth Jallipalli**
-
-Original project credit: IBM Developer Skills Network
-
----
-
-## 📜 License
-
-Original license belongs to the IBM Developer Skills Network project.
+Developed with ❤️ using React.
